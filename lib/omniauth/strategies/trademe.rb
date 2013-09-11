@@ -8,7 +8,7 @@ module OmniAuth
       option :name, 'trademe'
 
       option :client_options, {
-        :site => 'https://secure.tmxsandbox.co.nz',
+        :site => 'https://tmsandbox.co.nz',
         :request_token_path  => "/Oauth/RequestToken",
         :access_token_path   => "/Oauth/AccessToken",
         :authorize_path      => "/Oauth/Authorize"
